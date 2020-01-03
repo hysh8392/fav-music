@@ -1,0 +1,45 @@
+---
+layout: default
+title: Tags
+pagination:
+  enabled: true
+---
+<h1 class="h4">
+  <i class="fas fa-tags"></i> Tags
+</h1>
+<h2 class="h5 my-4">
+  <i class="fas fa-th-large"></i> Category
+</h2>
+<div class="h5">
+  {% assign category_tags = site | category_tags %}
+  {% for tag in category_tags %}
+  {{ tag | category_button }}
+  {% endfor %}
+</div>
+<h2 class="h5 my-4">
+  <i class="fas fa-calendar-alt"></i> Release Year
+</h2>
+<div class="h5">
+  {% assign release_year_tags = site | release_year_tags %}
+  {% for tag in release_year_tags %}
+  {{ tag | release_year_button }}
+  {% endfor %}
+</div>
+<h2 class="h5 my-4">
+  <i class="fas fa-music"></i> Genre
+</h2>
+<div class="h5">
+  {% assign genre_tags = site | genre_tags %}
+  {% for tag in genre_tags %}
+  {{ tag | genre_button }}
+  {% endfor %}
+</div>
+<h2 class="h5 my-4">
+  <i class="fas fa-users"></i> Artist
+</h2>
+<div class="h5">
+  {% assign artist_tags = site | artist_tags %}
+  {% for tag in artist_tags %}
+  {{ tag | artist_button }}
+  {% endfor %}
+</div>

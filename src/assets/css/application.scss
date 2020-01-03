@@ -1,0 +1,49 @@
+---
+---
+body {
+  font-size: 0.8rem;
+}
+article {
+  font-size: 1.0rem;
+}
+.navbar-brand {
+  font-size: 1.0rem;
+}
+.navbar-brand small {
+  font-size: 0.6rem;
+}
+.pagination-lg .page-link {
+  font-size: 0.6rem;
+}
+.card {
+  background-color: transparent;
+}
+.card-img-overlay .badge {
+  opacity: 0.8;
+}
+.x-zoom {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.x-zoom:hover {
+  transform: scale(1.02);
+}
+#x-back-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: rgba(52, 58, 64, 0.8);
+  transition: 1s;
+  z-index: 100;
+}
+#x-navbar {
+  background-color: rgba(52, 58, 64, 0.8);
+  transition: 0.5s;
+}
+#x-breadcrumb {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+#x-breadcrumb ul {
+  flex-wrap: nowrap;
+}

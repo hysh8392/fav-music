@@ -1,0 +1,26 @@
+<nav id="x-breadcrumb" aria-label="breadcrumb">
+  <ul class="breadcrumb bg-dark">
+    <li class="breadcrumb-item">
+      <a href="/">
+        <i class="fas fa-home"></i> Home
+      </a>
+    </li>
+    {% assign crumps = site | breadcrump_crumps %}
+    {% assign trails = page | breadcrump_trails %}
+    {% assign target = page['url'] | breadcrump_trail %}
+    {% for trail in trails offset: 1 %}
+    {% assign crump = crumps | where: 'url', trail | first %}
+    {% if trail == target %}
+    <li class="breadcrumb-item active">
+      {{ crump.title }}
+    </li>
+    {% else %}
+    <li class="breadcrumb-item">
+      <a href="{{ crump.url }}">
+        {{ crump.title }}
+      </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</nav>

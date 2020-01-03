@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<h1 class="h4">
+  {% assign title = page.title | tag_label %}
+  {% assign category_tag = page.title | category_tag? %}
+  {% if category_tag %}
+  <i class="fas fa-th-large"></i> {{ title }}
+  {% endif %}
+  {% assign release_year_tag = page.title | release_year_tag? %}
+  {% if release_year_tag %}
+  <i class="fas fa-calendar-alt"></i> {{ title }}
+  {% endif %}
+  {% assign genre_tag = page.title | genre_tag? %}
+  {% if genre_tag %}
+  <i class="fas fa-music"></i> {{ title }}
+  {% endif %}
+  {% assign artist_tag = page.title | artist_tag? %}
+  {% if artist_tag %}
+  <i class="fas fa-users"></i> {{ title }}
+  {% endif %}
+</h1>
+{% include pagination_list.html %}
+{% include post_list.html %}
+{% include pagination_list.html %}

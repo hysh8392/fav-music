@@ -1,0 +1,20 @@
+<nav class="my-3" aria-label="Page navigation">
+  <ul class="pagination pagination-lg">
+    <li class="page-item w-50 text-left {% unless page.next %}disabled{% endunless %}">
+      {% if page.next %}
+      <a class="page-link p-2 text-light bg-dark" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">
+        <div><i class="fas fa-angle-left"></i> Newer post</div>
+        <div class="text-truncate">{{ page.next.title }}</div>
+      </a>
+      {% endif %}
+    </li>
+    <li class="page-item w-50 text-right {% unless page.previous %}disabled{% endunless %}">
+      {% if page.previous %}
+      <a class="page-link p-2 text-light bg-dark" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}">
+        <div>Older post <i class="fas fa-angle-right"></i></div>
+        <div class="text-truncate">{{ page.previous.title }}</div>
+      </a>
+      {% endif %}
+    </li>
+  </ul>
+</nav>

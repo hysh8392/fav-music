@@ -1,0 +1,34 @@
+{% for post in paginator.posts %}
+<div class="card bg-dark text-light shadow mb-3 x-zoom">
+  <img src="{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
+  <div class="card-img-overlay text-secondary p-2">
+    <p class="card-text">
+      {% assign release_year_tags = site | release_year_tags %}
+      {% for tag in release_year_tags %}
+      {% if post.tags contains tag[0] %}
+      {{ tag[0] | release_year_badge }}
+      {% endif %}
+      {% endfor %}
+      {% assign genre_tags = site | genre_tags %}
+      {% for tag in genre_tags %}
+      {% if post.tags contains tag[0] %}
+      {{ tag[0] | genre_badge }}
+      {% endif %}
+      {% endfor %}
+    </p>
+  </div>
+  <div class="card-body">
+    <h2 class="h6 card-title">
+      <a class="text-light stretched-link" href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    <p class="card-text">
+      {{ post.excerpt }}
+    </p>
+    <p class="card-text">
+      <small class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</small>
+    </p>
+  </div>
+</div>
+{% endfor %}

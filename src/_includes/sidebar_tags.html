@@ -1,0 +1,36 @@
+<section class="container mb-3">
+  <h3 class="h6"><i class="fas fa-th-large"></i> Category</h3>
+  <span class="h5">
+    {% assign category_tags = site | category_tags %}
+    {% for tag in category_tags %}
+    {{ tag | category_button }}
+    {% endfor %}
+  </span>
+</section>
+<section class="container mb-3">
+  <h3 class="h6"><i class="fas fa-calendar-alt"></i> Release Year</h3>
+  <span class="h5">
+    {% assign release_year_tags = site | release_year_tags %}
+    {% for tag in release_year_tags %}
+    {{ tag | release_year_button }}
+    {% endfor %}
+  </span>
+</section>
+<section class="container mb-3">
+  <h3 class="h6"><i class="fas fa-music"></i> Genre</h3>
+  <span class="h5">
+    {% assign genre_tags = site | genre_tags %}
+    {% for tag in genre_tags %}
+    {{ tag | genre_button }}
+    {% endfor %}
+  </span>
+</section>
+<section class="container mb-3">
+  <h3 class="h6"><i class="fas fa-users"></i> Artist</h3>
+  <span class="h5">
+    {% assign artist_tags = site | artist_tags %}
+    {% for tag in artist_tags %}
+    {{ tag | artist_button }}
+    {% endfor %}
+  </span>
+</section>
