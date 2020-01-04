@@ -1,0 +1,26 @@
+{% if paginator.total_pages > 1 %}
+<nav class="my-3" aria-label="Page navigation">
+  <ul class="pagination pagination-lg justify-content-center">
+    <li class="page-item {% if paginator.first_page == paginator.page %}disabled{% endif %}">
+      <a class="page-link text-{% if paginator.first_page == paginator.page %}muted{% else %}light{% endif %} bg-dark" href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+        <i class="fas fa-angle-double-left"></i>
+      </a>
+    </li>
+    <li class="page-item {% unless paginator.previous_page %}disabled{% endunless %}">
+      <a class="page-link text-{% if paginator.previous_page %}light{% else %}muted{% endif %} bg-dark" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+        <i class="fas fa-angle-left"></i>
+      </a>
+    </li>
+    <li class="page-item {% unless paginator.next_page %}disabled{% endunless %}">
+      <a class="page-link text-{% if paginator.next_page %}light{% else %}muted{% endif %} bg-dark" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </li>
+    <li class="page-item {% if paginator.last_page == paginator.page %}disabled{% endif %}">
+      <a class="page-link text-{% if paginator.last_page == paginator.page %}muted{% else %}light{% endif %} bg-dark" href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+        <i class="fas fa-angle-double-right"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
+{% endif %}

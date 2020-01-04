@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<head>
+  {% include tags_meta.html %}
+  {% assign title = page.title | tag_label %}
+  {% assign first_path = page.url | slice: 0, 6 %}
+  {% if page.url == '/index.html' or first_path == '/page/' %}
+  <title>{{ title }} | {{ site.description }}</title>
+  {% else %}
+  <title>{{ title }} | {{ site.title }}</title>
+  {% endif %}
+  {% include tags_stylesheet.html %}
+  {% seo title=false %}
+  {% if jekyll.environment == "production" %}
+  {% include google_add_sense_head.html %}
+  {% include google_tag_manager_head.html %}
+  {% endif %}
+</head>
+
+<body class="bg-dark text-light">
+  {% if jekyll.environment == "production" %}
+  {% include google_tag_manager_body.html %}
+  {% endif %}
+  {% include header.html %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-8 mb-3">
+        {% include breadcrump.html %}
+        {% include content.html %}
+      </div>
+      <div class="col-md-12 col-lg-4 mb-3">
+        {% include sidebar.html %}
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+  <button type="button" class="btn btn-lg btn-dark rounded shadow" style="display: none;" id="x-back-to-top">
+    <i class="fas fa-angle-double-up"></i>
+  </button>
+  {% include tags_javascript.html %}
+</body>
+
+</html>

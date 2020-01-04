@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<small class="text-muted">{{ page.date | date: "%b %-d, %Y" }}</small>
+<h1 class="h4">{{ page.title }}</h1>
+{% if page.image %}
+<div class="card mb-3">
+  <img src="{{ page.image }}" class="card-img-top" alt="{{ page.title }}">
+</div>
+{% endif %}
+{% include pagination_page.html %}
+<article>
+  <div class="pb-1">
+    {% include tweet.html %}
+  </div>
+  {{ content }}
+  <div class="pt-1">
+    {% include tweet.html %}
+  </div>
+  <div class="pt-3">
+    <strong>Tags on this article:</strong>
+  </div>  
+  <div class="pt-1">
+    {% assign category_tags = site | category_tags %}
+    {% for tag in category_tags %}
+    {% if page.tags contains tag[0] %}
+    {{ tag | category_button }}
+    {% endif %}
+    {% endfor %}
+    {% assign release_year_tags = site | release_year_tags %}
+    {% for tag in release_year_tags %}
+    {% if page.tags contains tag[0] %}
+    {{ tag | release_year_button }}
+    {% endif %}
+    {% endfor %}
+    {% assign genre_tags = site | genre_tags %}
+    {% for tag in genre_tags %}
+    {% if page.tags contains tag[0] %}
+    {{ tag | genre_button }}
+    {% endif %}
+    {% endfor %}
+    {% assign artist_tags = site | artist_tags %}
+    {% for tag in artist_tags %}
+    {% if page.tags contains tag[0] %}
+    {{ tag | artist_button }}
+    {% endif %}
+    {% endfor %}
+  </div>
+</article>
+{% include pagination_page.html %}
