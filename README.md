@@ -2,7 +2,7 @@
 
 [Fav Music](https://fav-music.tokyo/) は、とある東京在住の Web エンジニア（＝[僕](https://fav-music.tokyo/author.html)）が [Apple Music](https://www.apple.com/jp/apple-music/) で配信されている 5,000 万曲の中から超個人的嗜好で厳選したお気に入りの音楽をプレイリスト形式で紹介していく音楽ブログです。
 
-このブログは、[僕](https://fav-music.tokyo/author.html) のライフワークである「ぼくのかんがえたさいきょうのプレイリスト」作りの成果をメインコンテンツとして、AWS, WordPress, Static Site Generator, AMP, PWA, Google AdSense & Analytics といった現在主流の Web 技術をキャッチアップしていく目的で構築・運用しています。
+このブログは、[僕](https://fav-music.tokyo/author.html) のライフワークである「ぼくのかんがえたさいきょうのプレイリスト」作りの成果をメインコンテンツとして、`AWS`, `WordPress`, `Static Site Generator`, `AMP`, `PWA`, `Google AdSense & Analytics` といった現在主流の Web 技術をキャッチアップしていく目的で構築・運用しています。
 
 [Fav Music](https://fav-music.tokyo/) は当初 WordPress でサイトを構築しましたが、現在は [Jekyll](https://github.com/jekyll/jekyll) という [Ruby](https://github.com/ruby/ruby) 製の静的サイトジェネレーターを使用して全てのコンテンツを生成しており、このリポジトリでその全てを管理しています。
 
