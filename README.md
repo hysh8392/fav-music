@@ -4,7 +4,7 @@
 
 このブログは、[僕](https://fav-music.tokyo/author.html) のライフワークである「ぼくのかんがえたさいきょうのプレイリスト」作りの成果をメインコンテンツとして、`AWS`, `WordPress`, `Static Site Generator`, `AMP`, `PWA`, `Google AdSense & Analytics` といった現在主流の Web 技術をキャッチアップしていく目的で構築・運用しています。
 
-[Fav Music](https://fav-music.tokyo/) は当初 WordPress でサイトを構築しましたが、現在は [Jekyll](https://github.com/jekyll/jekyll) という [Ruby](https://github.com/ruby/ruby) 製の静的サイトジェネレーターを使用して全てのコンテンツを生成しており、このリポジトリでその全てを管理しています。
+[Fav Music](https://fav-music.tokyo/) は当初 `WordPress` でサイトを構築しましたが、現在は [Jekyll](https://github.com/jekyll/jekyll) という [Ruby](https://github.com/ruby/ruby) 製の静的サイトジェネレーターを使用して全てのコンテンツを生成しており、このリポジトリでその全てを管理しています。
 
 まだ手付かずのタスクやとりあえずリリース優先で雑に書いてしまったコード、変な言い回しや誤字脱字など至らない点は多々あると思いますが、[Jekyll](https://github.com/jekyll/jekyll) を使用して構築した静的サイトの Real World Example としてその全てを公開しようと思います。
 
