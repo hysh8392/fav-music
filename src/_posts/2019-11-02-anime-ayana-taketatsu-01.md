@@ -32,6 +32,25 @@ image: /assets/img/fav-music-anime-ayana-taketatsu-01.png
 ## <i class="far fa-comment-alt"></i> コメント
 
 TODO: コメントを書く！
+「Yes-No」は、
+
+「時空ツアーズ」は、
+
+「サーフでゴゴゴ」は、
+
+「CANDY LOVE」は、
+
+「齧りかけの林檎」は、
+
+「年中・愛は・無休」は、
+
+「ライスとぅミートゅー」は、
+
+「えぶりでぃメリークリスマス」は、
+
+「マシュマロ」は、
+
+「ユメイロソレイユ」は、
 
 ## <i class="fas fa-folder"></i> カタログ情報
 

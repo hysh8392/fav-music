@@ -32,6 +32,25 @@ image: /assets/img/fav-music-anime-maaya-uchida-01.png
 ## <i class="far fa-comment-alt"></i> コメント
 
 TODO: コメントを書く！
+「Hello, future contact!」は、
+
+「take you take me BANDWAGON」は、
+
+「Shiny drive, Moony dive」は、
+
+「からっぽカプセル」は、
+
+「Step to Next Star!!」は、
+
+「ギミー!レボリューション」は、
+
+「魔女になりたい姫と姫になりたい魔女のラプソディー」は、
+
+「創傷イノセンス」は、
+
+「c.o.s.m.o.s」は、
+
+「サニーデイ・アンセム」は、
 
 ## <i class="fas fa-folder"></i> カタログ情報
 

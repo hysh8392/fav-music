@@ -32,6 +32,25 @@ image: /assets/img/fav-music-anime-ayaka-ohashi-01.png
 ## <i class="far fa-comment-alt"></i> コメント
 
 TODO: コメントを書く！
+「ENERGY☆SMILE」は、
+
+「ハイライト」は、
+
+「ワガママMIRROR HEART」は、
+
+「RED SEED」は、
+
+「Maiden Innocence」は、
+
+「にゃんダフルらいふ」は、
+
+「Break a Liar」は、
+
+「Finding Lover」は、
+
+「ダイスキ。」は、
+
+「NOISY LOVE POWER☆」は、
 
 ## <i class="fas fa-folder"></i> カタログ情報
 

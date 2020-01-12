@@ -37,6 +37,25 @@ image: /assets/img/fav-music-anime-inori-minase-02.png
 ## <i class="far fa-comment-alt"></i> コメント
 
 TODO: コメントを書く！
+「笑顔が似合う日」は、
+
+「アルペジオ」は、
+
+「Snow White」は、
+
+「涙のあとは」は、
+
+「Winter Wonder Wander」は、
+
+「夏夢」は、
+
+「Wonder Caravan!」は、
+
+「旅の途中」は、
+
+「今を僕らしく生きてくために」は、
+
+「harmony ribbon」は、
 
 ## <i class="fas fa-folder"></i> カタログ情報
 

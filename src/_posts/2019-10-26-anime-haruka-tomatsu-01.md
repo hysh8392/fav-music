@@ -33,6 +33,25 @@ image: /assets/img/fav-music-anime-haruka-tomatsu-01.png
 ## <i class="far fa-comment-alt"></i> コメント
 
 TODO: コメントを書く！
+「恋ヲウチヌケ」は、
+
+「motto☆派手にね!」は、
+
+「♪Make Up Sweet Girl☆」は、
+
+「Q&A リサイタル!」は、
+
+「Issai Gassai」は、
+
+「BIG WAVE」は、
+
+「Oh My God」は、
+
+「ドーナツ」は、
+
+「courage」は、
+
+「シンデレラ☆シンフォニー」は、
 
 ## <i class="fas fa-folder"></i> カタログ情報
 

@@ -37,6 +37,25 @@ image: /assets/img/fav-music-anime-inori-minase-01.png
 ## <i class="far fa-comment-alt"></i> コメント
 
 TODO: コメントを書く！
+「夢のつぼみ」は、
+
+「MELODY FLAG」は、
+
+「Lucky Clover」は、
+
+「まっすぐに、トウメイに。」は、
+
+「約束のアステリズム」は、
+
+「TRUST IN ETERNITY」は、
+
+「identity」は、
+
+「brave climber」は、
+
+「コイセヨオトメ」は、
+
+「ハートノイロ」は、
 
 ## <i class="fas fa-folder"></i> カタログ情報
 
